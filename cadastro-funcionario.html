@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionários - LyberSystema</title>
+</head>
+<body>
+<header class="titulo-formulario"><h1>&#128101; Cadastro de Funcionários &#128101;</h1></header>
+<hr>
+<main>
+    <form action="//">
+        <fieldset class="formulario">
+            <legend class="titulo-user-funcionario"><strong>Informações do Usuário</strong></legend>
+            <label for="nomeCompleto" class="nome-funcionario">Nome Completo do funcionário:</label> <br>
+            <input type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Ex: Ana Maria da Silva" required maxlength="60"><br><br>
+            <label for="senha" class="senha-funcionario">Senha:</label><br>
+            <input type="password" name="senha" id="senha" maxlength="16" placeholder="Digite uma senha..." required> <br><br>
+            <label for="dataNascimento" class="dataNascimento">Data de Nascimento:</label><br>
+            <input type="date" required> <br><br>
+            <label for="cpf" class="tituloCPF">CPF:</label><br>
+            <input type="text" accept="number" maxlength="11" placeholder="Número do seu CPF aqui..."><br><br>
+            <label for="telefone" class="telefone-funcionario">Número de Telefone:</label><br>
+            <input type="tel" name="telefone" id="telefone" maxlength="15" required placeholder="(11)98765-4321"> <br><br>
+            <label for="email" class="email-funcionario">E-mail:</label> <br>
+            <input type="email" placeholder="Ex: fulano123@email.com" required> <br><br>
+            <label for="endereco" class="endereco-funcionario">Endereço do Funcionário:</label><br>
+            <input type="text" name="enderecoFuncionario" required maxlength="120" placeholder="Seu endereço aqui..."> <br><br>
+            <label for="enderecoBiblioteca" class="endereco-biblioteca">Endereço da Biblioteca de Atuação:</label><br>
+            <input type="text" name="enderecoBiblioteca" required maxlength="120" placeholder="Endereço da biblioteca..."> <br><br>
+            <label for="fotoPerfil" class="foto-funcionario">Foto de Perfil:</label><br>
+            <input type="file" name="fotoPerfil" id="fotoPerfil" accept="image">
+        </fieldset>
+        <br>
+        <input type="submit" name="enviar" id="enviar" value="Registrar" class="registrar-funcionario"> <input type="reset" name="reset" id="reset" value="Limpar todos os campos" class="resetar-funcionario"> <br><br>
+        <a href="/index.html"><button type="button" class="retornar-tela-inicial">Voltar para a Tela Inicial</button></a>
+    </form>
+</main>
+</body>
+</html>
+<!--Página atualizada, talvez precise adicionar mais classes-->
+
+

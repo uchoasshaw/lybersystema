@@ -1,0 +1,64 @@
+@font-face {
+    font-family: fonte;
+    src: local(Fonte) url(Enchanted\ Land.otf);
+}
+.lybersystema {
+    background-color: #c3c3c3;
+}
+.lybersystema h1 {
+    color:  #fcc547;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: 100px;
+    text-shadow: #353931 3px;
+}
+.lybersystema_introducao {
+    background-color: #D4E0C5;
+}
+.lybersystema_introducao h1 {
+    color: #353931;
+    text-align: center;
+    margin: auto;
+}
+.lybersystema_introducao h3 {
+    color: #353931;
+    text-align: center;
+    margin: auto;
+}
+.login button{
+    background-color: #757D6C;
+    color: #ffff;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    align-items: center;
+    padding: 20px;
+}
+.login button:hover {
+    background-color: #353931;
+    color: #ffff;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    align-items: center;
+    padding: 20px;
+}
+.cadastro button {
+    background-color: #757D6C;
+    color: #ffff;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    align-items: center;
+    padding: 20px;
+}
+.cadastro button:hover {
+    background-color: #353931;
+    color: #ffff;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    align-items: center;
+    padding: 20px;
+}
